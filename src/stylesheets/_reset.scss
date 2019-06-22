@@ -1,0 +1,30 @@
+@import './_colours.scss';
+
+html {
+  color: $mainFont;
+  font-size: calc(8px + .7vw);
+}
+
+* {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  text-align: left;
+}
